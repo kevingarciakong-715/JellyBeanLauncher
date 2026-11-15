@@ -20,7 +20,7 @@ jobs:
               <application
                   android:allowBackup="true"
                   android:label="JB Launcher"
-                  android:theme="@style/Theme.AppCompat.NoActionBar">
+                  android:theme="@android:style/Theme.Holo.NoActionBar">
                   <activity
                       android:name=".MainActivity"
                       android:launchMode="singleTask"
