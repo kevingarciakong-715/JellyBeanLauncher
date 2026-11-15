@@ -17,6 +17,8 @@ jobs:
           distribution: 'temurin'
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
       - name: Build Debug APK and Release AAB
         run: gradle assembleDebug bundleRelease
       - name: Upload APK and AAB
